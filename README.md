@@ -5,6 +5,7 @@ Sentiment Analysis is a NLP technique that is often used to determine whether te
 I used a RoBERTa-base model trained on 124M posts and fine-tuned for sentiment analysis. [Model Used](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest)
 
 ## Project Features
+- I used the YouTube Data API to extract comments and other video information
 - I created Word Clouds for both Positive and Negative sentiment comments
 - I analyzed the confidence of the model. (Was the model more confident in predicting a particular sentiment?)
 - Text cleaning (removing stop words/punctuation, word tokenization, lemmatize, finding and removing abnormally long comments)
